@@ -1,0 +1,30 @@
+{
+  "name": "pi-herdr-fork-tab",
+  "version": "0.1.0",
+  "description": "Fork a running Pi session from its history into a new Herdr tab.",
+  "license": "MIT",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "herdr",
+    "extension",
+    "session"
+  ],
+  "type": "module",
+  "scripts": {
+    "test": "bun test"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "pi": {
+    "extensions": [
+      "./src/index.ts"
+    ]
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ]
+}
